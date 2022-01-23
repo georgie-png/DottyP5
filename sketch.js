@@ -32,7 +32,6 @@ function setup() {
 function draw() {
     colorMode(HSB);
     background(0);
-    fill(color(255,0,255))
     strokeWeight(0);
     
     xoff += 0.01;
@@ -93,7 +92,6 @@ function draw() {
 }
 
 function keyPressed() {
-    print("Saved")
     save("mySVG.svg");
   
 }
