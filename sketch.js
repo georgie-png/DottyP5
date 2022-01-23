@@ -7,7 +7,7 @@ let xoff = 0;
 
 
 function setup() {
-    createCanvas(600, 200, SVG);
+    createCanvas(displayWidth,displayHeight, SVG);
     
     let xP=0;
     
